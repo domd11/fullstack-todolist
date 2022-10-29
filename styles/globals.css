@@ -6,6 +6,51 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
+.toggle {
+  cursor: pointer;
+}
+
+.toggle:hover {
+  font-weight: bolder;
+}
+
+.home-title {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.form-control {
+  max-width: 500px;
+  display: inline-flex;
+}
+
+.todo input:checked {
+  background-color: lightgreen;
+}
+
+.btn {
+  display: inline-flex;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.container-loader {
+  height: 100vh;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -14,6 +59,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.title {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.icon {
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   html {

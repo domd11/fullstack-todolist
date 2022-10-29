@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "bootstrap": "^5.2.2",
+    "firebase": "^9.13.0",
     "next": "13.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-icons": "^4.6.0"
   },
   "devDependencies": {
     "eslint": "8.26.0",
